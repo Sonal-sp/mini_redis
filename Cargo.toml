@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "crates/mini-redis-core",
+    "crates/mini-redis-server",
+    "crates/mini-redis-cli",
+    "crates/mini-redis-gui",
+]
+resolver = "2"

@@ -1,0 +1,13 @@
+[package]
+name = "mini-redis-cli"
+version = "0.1.0"
+edition = "2021"
+description = "Interactive REPL CLI client for Mini Redis"
+
+[dependencies]
+mini-redis-core = { path = "../mini-redis-core" }
+tokio = { version = "1", features = ["full"] }
+clap = { version = "4", features = ["derive"] }
+rustyline = "14"
+colored = "2"
+anyhow = "1"

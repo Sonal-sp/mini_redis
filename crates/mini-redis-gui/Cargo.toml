@@ -1,0 +1,13 @@
+[package]
+name = "mini-redis-gui"
+version = "0.1.0"
+edition = "2021"
+description = "Native cross-platform desktop GUI for Mini Redis built with egui"
+
+[dependencies]
+mini-redis-core = { path = "../mini-redis-core" }
+eframe = "0.29"
+tokio = { version = "1", features = ["full"] }
+chrono = "0.4"
+anyhow = "1"
+bytes = "1"

@@ -1,0 +1,15 @@
+[package]
+name = "mini-redis-server"
+version = "0.1.0"
+edition = "2021"
+description = "Multi-threaded async TCP Redis server with AOF persistence"
+
+[dependencies]
+mini-redis-core = { path = "../mini-redis-core" }
+tokio = { version = "1", features = ["full"] }
+tokio-stream = { version = "0.1", features = ["sync"] }
+bytes = "1"
+clap = { version = "4", features = ["derive"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+anyhow = "1"
