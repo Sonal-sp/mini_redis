@@ -24,8 +24,7 @@ This repository features:
 ### 💻 Interactive REPL Client (`mini-redis-cli`)
 ![Mini Redis CLI](assets/screenshots/cli.png)
 
-### ⚡ Tokio Server Terminal (`mini-redis-server`)
-![Mini Redis Server](assets/screenshots/server.png)
+
 
 ---
 
