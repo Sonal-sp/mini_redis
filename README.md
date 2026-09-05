@@ -19,10 +19,10 @@ This repository features:
 > Place your screenshots in `assets/screenshots/` (or update the paths below):
 
 ### 🖥️ Desktop GUI Studio (`mini-redis-gui`)
-![Mini Redis Studio GUI](assets/screenshots/gui.png)
+![Mini Redis Studio GUI](assets/screenshots/redis%20gui.png)
 
 ### 💻 Interactive REPL Client (`mini-redis-cli`)
-![Mini Redis CLI](assets/screenshots/cli.png)
+![Mini Redis CLI](assets\screenshots/redis%20cli.png)
 
 
 
